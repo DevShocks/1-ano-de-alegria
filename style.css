@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to bottom, #a16be4, #ff83b3);
+  }
+  .menu-topo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent; /* tornando o fundo do menu transparente */
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(240, 235, 235, 0.705);
+  }
+  
+  .menu-topo li {
+    margin-right: 50px;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+  
+  .menu-topo li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-topo li a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  
+  .menu-topo li a:hover {
+    background-color: #444;
+    padding: 10px;
+  }
+
+  
+  .imagem-coracao {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imagem-coracao:hover {
+    transform: scale(1.1) rotate(-45deg);
+  }
+
+  .image {
+    transition: all 0.3s ease;
+  }
+  
+  .image:hover {
+    box-shadow: 0 0 10px 2px #b2d8ff;
+  }
